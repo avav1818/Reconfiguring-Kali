@@ -14,13 +14,22 @@
 
 1. Change the default password 
 * Enter `psswd` command followed the default password `kali` and then enter your NEW password
-
+<br />
 2. Install terminal multiplexer tilix
 * `sudo apt-get install tilix -y`
 * After installation run tilix with `tilix` command 
-
+<br />
 3. Install Tor onion browser
 * `sudo apt-get update`
 * `apt-get install tor torbrowser-launcher -y`
 * Tor browser application will then be found in the Usual Applications 
+<br />
+4. Change default SSH keys
+* Navigate to directory storing ssh keys: `cd /etc/ssh`
+* Create a directory to store old ssh keys: `sudo mkdir old_keys && mv ssh_host_* /old_keys`
+* Generate new SSH keys: `dpkg-reconfigure openssh-server`
+* View newly generated SSH hashes: `md5sum ssh_host_*`
+* View old SSH key hashes: `cd /old_keys && md5sum ssh_host_*`
+* Hashes should be different so you can proceed to delete the directory storing old keys
+5. Change default port for SSH from port 22, to something else 
 
