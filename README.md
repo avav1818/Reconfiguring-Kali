@@ -34,3 +34,7 @@
 
 5. Change default port for SSH from port 22, to something else 
 
+6. Change default US keyboard layout 
+* `sudo dpkg-reconfigure keyboard-configuration`
+* https://askubuntu.com/questions/342066/how-to-permanently-configure-keyboard
+
