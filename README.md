@@ -8,6 +8,7 @@
 * Download Kali Linux: https://www.kali.org/downloads/
 * Tutorial on verifying authenticity of the Kali Linux ISO image: https://technibuzz.com/how-to-verify-integrity-and-authenticity-of-kali-linux-iso-image/ 
 * Note: I installed Kali Linux in Vitual Box in Windows 10
+* Note: Commands to input into the terminal are `written in this format`. Follow them sequentially
 
 ### Operations to perform after installing Kali Linux. 
 
