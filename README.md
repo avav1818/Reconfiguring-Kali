@@ -17,7 +17,7 @@
 * Enter default password `kali`
 * Enter you new password and store it somewhere SECURE
 
-![](images/changingDefaultPassword.png)
+![](Images/changingDefaultPassword.png)
 
 2. Install terminal multiplexer tilix
 * `sudo apt-get install tilix -y`
