@@ -13,7 +13,11 @@
 ### Operations to perform after installing Kali Linux. 
 
 1. Change the default password 
-* Enter `psswd` command followed the default password `kali` and then enter your NEW password
+* Enter `passwd`
+* Enter default password `kali`
+* Enter you new password and store it somewhere SECURE
+
+![](images/changingDefaultPassword.png)
 
 2. Install terminal multiplexer tilix
 * `sudo apt-get install tilix -y`
