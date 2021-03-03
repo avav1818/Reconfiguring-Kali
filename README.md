@@ -66,11 +66,34 @@
 
 ![](Images/postgreSQL.png)
 
-6. Check the installed python packages and switch to python 3
-* Note: `alias` can be used to revert back to python3
+6. Check installed python packages and switch to python 3 if need be
+* `ls /usr/bin/python*`
+* `python--version`
+* `alias python=python3`
+* `python --version`
+* Run python from the terminal: `python`
+* `alias` can be used to revert back to python2
 
 ![](Images/python3Switch.png)
 
+7. Install git
+* `sudo apt-get update`
+* `sudo apt-get install git -y`
+* `git --version`
+
+![](Images/installingGit.png)
+
+![](Images/installingGit2.png)
+
+8. Download your first package from git, in this case "Routersploit"
+* Routersploit is an exploitation framework for embedded devices
+* `git clone https://github.com/threat9/routersploit`
+* [Routersploit docs](https://github.com/threat9/routersploit) 
+* [Routersploit example usage](https://www.youtube.com/watch?v=fgau-Dx_34o)
+
+![](Images/routersploit.png)
+
+![](Images/routersploit2.png)
 
 8. Change default port for SSH from port 22, to something else 
 
