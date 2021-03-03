@@ -47,11 +47,18 @@
 
 4. Change default SSH keys
 * Navigate to directory storing ssh keys: `cd /etc/ssh`
-* Create a directory to store old ssh keys: `sudo mkdir old_keys && mv ssh_host_* /old_keys`
-* Generate new SSH keys: `dpkg-reconfigure openssh-server`
-* View newly generated SSH hashes: `md5sum ssh_host_*`
-* View old SSH key hashes: `cd /old_keys && md5sum ssh_host_*`
-* Hashes should be different so you can proceed to delete the directory storing old keys
+* Create a directory to store old ssh keys: `sudo mkdir old_keys`
+* Move old ssh keys into old ssh keys directory `sudo mv ssh_host_* old_keys`
+* Generate new SSH keys: `sudo dpkg-reconfigure openssh-server`
+* View newly generated SSH key hashes: `sudo md5sum ssh_host_*`
+* View old ssh key hashes: `cd old_keys` `sudo md5sum ssh_host_*`
+* Hashes will be different
+* Navigate out of the old keys directory `cd ..`
+* Delete the old keys directory `sudo rm -r -v old_keys`
+
+![](Images/changingSSH.png)
+
+![](Images/changingSSH2.png)
 
 5. Change default port for SSH from port 22, to something else 
 
