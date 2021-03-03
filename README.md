@@ -44,8 +44,15 @@
 
 ![](Images/torBrowser.png)
 
+4. Change default port for SSH from port 22, to something else more obscure
+* Install SSH
+* Start SSH service
 
-4. Change default SSH keys
+![](Images/ssh.png)
+
+![](Images/.png)
+
+5. Change default SSH keys
 * Navigate to directory storing ssh keys: `cd /etc/ssh`
 * Create a directory to store old ssh keys: `sudo mkdir old_keys`
 * Move old ssh keys into old ssh keys directory `sudo mv ssh_host_* old_keys`
@@ -95,9 +102,10 @@
 
 ![](Images/routersploit2.png)
 
-8. Change default port for SSH from port 22, to something else 
 
-7. Change default US keyboard layout 
+9. Change default US keyboard layout, if necessary, and follow the instructions on the Wizard to select your preferences 
 * `sudo dpkg-reconfigure keyboard-configuration`
-* https://askubuntu.com/questions/342066/how-to-permanently-configure-keyboard
+* Restart your machine afterwards
+* Source: https://askubuntu.com/questions/342066/how-to-permanently-configure-keyboard
+
 
