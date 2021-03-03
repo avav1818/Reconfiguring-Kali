@@ -60,7 +60,13 @@
 
 ![](Images/changingSSH2.png)
 
-5. Change default port for SSH from port 22, to something else 
+5. Enable postgreSQL to start at boot: `sudo systemctl enable postgresql`
+* PostgreSQL is an open source relational database system that support SQL relational and JSON non-relational querying  
+* More on posgreSQL: https://www.postgresql.org/about/ 
+
+![](Images/postgreSQL.png)
+
+7.  Change default port for SSH from port 22, to something else 
 
 6. Change default US keyboard layout 
 * `sudo dpkg-reconfigure keyboard-configuration`
