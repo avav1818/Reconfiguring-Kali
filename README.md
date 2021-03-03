@@ -31,8 +31,9 @@
 
 3. Install Tor onion browser
 * `sudo apt-get update`
-* `apt-get install tor torbrowser-launcher -y`
-* Tor browser application will then be found in the Usual Applications 
+* `sudo apt-get install tor torbrowser-launcher -y`
+* Tor Browser can be found by entering "Tor" in the search browser or in: Usual Applications > Internet > Tor Browser
+
 
 4. Change default SSH keys
 * Navigate to directory storing ssh keys: `cd /etc/ssh`
