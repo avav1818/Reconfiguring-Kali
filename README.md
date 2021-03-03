@@ -23,6 +23,12 @@
 * `sudo apt-get install tilix -y`
 * After installation run tilix with `tilix` command 
 
+![](Images/installingTilix.png)
+
+![](Images/runningTilix.png)
+
+![](Images/tilixMultiplexer.png)
+
 3. Install Tor onion browser
 * `sudo apt-get update`
 * `apt-get install tor torbrowser-launcher -y`
