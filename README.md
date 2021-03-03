@@ -58,10 +58,10 @@
 * Exit the nano file: "CTRL + X", "CTRL + Y", then hit enter
 * View the newly changed configuration file: `cat sshd_config`
 * Restart the SSH service: `sudo service ssh restart`
-* Attempt to connect to your machine via ssh `ssh kali@yourIP`
+* Attempt to connect to your machine via ssh `ssh kali@10.0.2.15`
 * Connection will be denied
-* Attempt an SSH reconnect whilst stating the port you added to the configuration file 
-* `ssh kali@yourIP -p portNumber
+* Reconnect via SSH stating the new port added to the configuration file 
+* `ssh kali@10.0.2.15 -p 3158`
 
 ![](Images/ssh.png)
 
