@@ -68,6 +68,10 @@
 
 ![](Images/ssh3.png)
 
+![](Images/ssh4.png)
+
+![](Images/ssh4.1.png)
+
 ![](Images/ssh5.png)
 
 ![](Images/ssh7.png)
@@ -75,6 +79,9 @@
 ![](Images/ssh9.png)
 
 ![](Images/ssh10.png)
+
+![](Images/ssh11.png)
+
 
 5. Change default SSH keys
 * Navigate to directory storing ssh keys: `cd /etc/ssh`
