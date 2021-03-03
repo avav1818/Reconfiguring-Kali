@@ -54,8 +54,13 @@
 * `cat sshd_config`
 * Open SSH configuration file with root permission and "nano" text editor
 * `sudo nano sshd_config`
-* Navigate to "#Port 22" within the configuration file and set it to something obscure
+* Navigate to "#Port 22" within the configuration file and set it to something obscure, in this case "3158"
 * Exit the nano file: "CTRL + X", "CTRL + Y", then hit enter
+* View the newly changed configuration file: `cat sshd_config`
+* Restart the SSH service: `sudo service ssh restart`
+* Attempt to connect to your machine via ssh `ssh kali@<insert your ip here>'
+* Connection will be denied
+* Attempt an SSH reconnect whilst stating the port you added to the configuration file `ssh kali@<insert your ip here> -p insert port in the configuration file>
 
 ![](Images/ssh.png)
 
@@ -66,6 +71,10 @@
 ![](Images/ssh5.png)
 
 ![](Images/ssh7.png)
+
+![](Images/ssh9.png)
+
+![](Images/ssh10.png)
 
 5. Change default SSH keys
 * Navigate to directory storing ssh keys: `cd /etc/ssh`
