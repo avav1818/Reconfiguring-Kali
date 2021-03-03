@@ -45,12 +45,27 @@
 ![](Images/torBrowser.png)
 
 4. Change default port for SSH from port 22, to something else more obscure
-* Install SSH
-* Start SSH service
+* Install SSH: `sudo apt-get install ssh -y`
+* Start the SSH service: `sudo service ssh start`
+* View SSH service status: `sudo service ssh status`
+* Take note of your ip, next to "inet" on interface eth0 in this case: `ifconfig`
+* Change to ssh directory: `cd /etc/ssh`
+* View SSH configuration file details. Port will be set to 22 by default 
+* `cat sshd_config`
+* Open SSH configuration file with root permission and "nano" text editor
+* `sudo nano sshd_config`
+* Navigate to "#Port 22" within the configuration file and set it to something obscure
+* Exit the nano file: "CTRL + X", "CTRL + Y", then hit enter
 
 ![](Images/ssh.png)
 
-![](Images/.png)
+![](Images/ssh2.png)
+
+![](Images/ssh3.png)
+
+![](Images/ssh5.png)
+
+![](Images/ssh7.png)
 
 5. Change default SSH keys
 * Navigate to directory storing ssh keys: `cd /etc/ssh`
