@@ -66,9 +66,15 @@
 
 ![](Images/postgreSQL.png)
 
-7.  Change default port for SSH from port 22, to something else 
+6. Check the installed python packages and switch to python 3
+* Note: `alias` can be used to revert back to python3
 
-6. Change default US keyboard layout 
+![](Images/python3Switch.png)
+
+
+8. Change default port for SSH from port 22, to something else 
+
+7. Change default US keyboard layout 
 * `sudo dpkg-reconfigure keyboard-configuration`
 * https://askubuntu.com/questions/342066/how-to-permanently-configure-keyboard
 
