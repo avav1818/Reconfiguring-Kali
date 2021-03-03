@@ -79,8 +79,6 @@
 
 ![](Images/ssh9.png)
 
-![](Images/ssh10.png)
-
 ![](Images/ssh11.png)
 
 
