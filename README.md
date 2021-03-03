@@ -34,6 +34,16 @@
 * `sudo apt-get install tor torbrowser-launcher -y`
 * Tor Browser can be found by entering "Tor" in the search browser or in: Usual Applications > Internet > Tor Browser
 
+![](Images/installingTor.png)
+
+![](Images/torLocation.png)
+
+![](Images/downloadingTor.png)
+
+![](Images/downloadingTor2.png)
+
+![](Images/torBrowser.png)
+
 
 4. Change default SSH keys
 * Navigate to directory storing ssh keys: `cd /etc/ssh`
