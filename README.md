@@ -47,7 +47,7 @@
 4. Change default port for SSH from port 22, to something else more obscure
 * Install SSH: `sudo apt-get install ssh -y`
 * Start the SSH service: `sudo service ssh start`
-* View SSH service status: `sudo service ssh status`
+* View SSH service status: `service ssh status`
 * Take note of your ip, next to "inet" on interface eth0 in this case: `ifconfig`
 * Change to ssh directory: `cd /etc/ssh`
 * View SSH configuration file details. Port will be set to 22 by default 
@@ -137,5 +137,10 @@
 * `sudo dpkg-reconfigure keyboard-configuration`
 * Restart your machine afterwards
 * Source: https://askubuntu.com/questions/342066/how-to-permanently-configure-keyboard
+
+10. Install [LibreOffice](https://www.libreoffice.org/) a productivity software suite 
+* `sudo apt install libreoffice -y`
+
+![image](https://user-images.githubusercontent.com/77082071/113338273-ccd9e280-9320-11eb-8787-aeaef238d5d0.png)
 
 
