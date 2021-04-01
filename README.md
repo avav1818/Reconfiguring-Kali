@@ -146,4 +146,3 @@
 * LibreOffice suite applications will be found under "Office" in "Usual applications" 
 
 ![image](https://user-images.githubusercontent.com/77082071/113339773-e0864880-9322-11eb-9428-1f716a5a3a52.png)
-
